@@ -1,0 +1,152 @@
+@media screen and (max-width: 600px){
+    body{
+    background: url(910515.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    text-align: center;
+}  
+    .box{
+        height: 200px;
+        width: 300px;
+        background:antiquewhite;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: transparent;
+        border-bottom: 5px solid;
+        border-bottom-color: rgb(224, 158, 13);
+        border-bottom-left-radius:20%;
+        border-bottom-right-radius:20%;
+        border-top: 8px solid;
+        border-top-color: rgb(61, 213, 233);
+        border-top-right-radius:20%;
+        border-top-left-radius:20%;
+        
+    }
+    .content{
+        
+        width:250px;
+        background-image:linear-gradient(to top,rgb(42, 174, 207),rgb(17, 67, 87));
+        height: 4vh;
+        margin-bottom: 200px;
+        color: aliceblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: -250px;
+        border-radius: 100px;
+    }
+    .message{
+        width:250px;
+        height: 4vh;
+        margin-bottom: 100px;
+        color: aliceblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0;
+    }
+    }
+    
+
+
+@media screen and (max-width: 979px) and (min-width: 768px){
+    body{
+    background: url(910515.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+.box{
+    height: 300px;
+    width: 500px;
+    background:antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border-bottom: 5px solid;
+    border-bottom-color: rgb(224, 158, 13);
+    border-bottom-left-radius:20%;
+    border-bottom-right-radius:20%;
+    border-top: 8px solid;
+    border-top-color: rgb(61, 213, 233);
+    border-top-right-radius:20%;
+    border-top-left-radius:20%;
+    
+}
+.content{
+        
+    width:390px;
+    border-radius: 100px;
+    background-image:linear-gradient(to top,rgb(42, 174, 207),rgb(17, 67, 87));
+    height: 4vh;
+    margin-bottom: 300px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -400px;
+}
+    .message{
+        width:440px;
+        height: 4vh;
+        margin-bottom: 180px;
+        color: aliceblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: -40;
+        font-size: 25;
+    }
+    }
+
+@media screen and (min-width: 992px){
+    body{
+    background: url(https://e0.pxfuel.com/wallpapers/404/257/desktop-wallpaper-norway-sunset-over-forest.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+.box{
+    height: 400px;
+    width: 700px;
+    background:antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border-bottom: 5px solid;
+    border-bottom-color: rgb(172, 170, 167);
+    border-bottom-left-radius:20%;
+    border-bottom-right-radius:20%;
+    border-top: 8px solid;
+    border-top-color: rgb(224, 158, 13);
+    border-top-right-radius:20%;
+    border-top-left-radius:20%;
+    
+}
+.content{
+        
+    width:490px;
+    background-image:linear-gradient(to top,rgb(216, 155, 23),rgb(87, 58, 31));
+    height: 4vh;
+    margin-bottom: 410px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}

@@ -1,0 +1,41 @@
+<! doctype html>
+<html>
+    <head>
+     <title> bob
+     </title>
+     <script type="text/javascript">
+        function validate(n)
+        {
+            if(n==""||n==null)
+            {
+                alert('Please enter your name');
+            }
+            else
+            {   localStorage.setItem('mydata1',n);
+                window.location.href= 'next.html';
+            }
+        }
+     </script>
+     <link rel="stylesheet" href="styling .css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="box">
+            <h1>Welcome My Friend</h1>
+            
+            <img src="Untitled.jpg" class="pro"></img>
+            
+            <form method="post">
+            <div class="input">
+                
+                <input type="text" placeholder="Your Name" class="ib" required name="n1"/><br/>
+            </div>
+            <div class="button">
+                <input type="button" value="Done" onclick="validate(n1.value)"/>
+            </div>
+            </form>
+
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,232 @@
+body{
+display: flex;
+justify-content: center;
+margin-top: 30%;
+background-image: url(The-Nature-iPhone-Wallpaper-HD.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.pro{
+    border-radius: 50%;
+    padding: 1ch;
+    max-height: 5cap;    
+}
+h1{
+text-align: center;
+color:rgb(191, 218, 241);
+text-shadow: 2px 2px rgb(80, 92, 102);
+}
+
+.box{
+border-radius: 5% 0%;
+position: relative;
+margin-top: 100px;
+width: 80%;
+height: 8cm;
+align-content: center;
+border: 3px solid rgb(90, 161, 158);
+backdrop-filter: blur(5px);
+box-shadow: 3px 3px rgb(131, 155, 175);
+background-color: transparent;
+text-align: center;
+}
+
+
+
+
+
+.ib{
+    height: 35px;
+    width: 90%;
+    outline: none;
+    border: 2px solid rgb(176, 207, 235);
+    color: rgb(255, 255, 255);
+    background: transparent;
+    box-shadow: 1px 1px rgb(68, 77, 85);
+    border-radius: 45px;
+}
+.button
+{
+     text-align: center;
+}
+.button input{
+    margin-top: 50px;
+    width: 15ch;
+    height: 5ch;
+    font-size: 12px;
+    border-radius: 100px;
+    background-image: linear-gradient(to top,rgb(109, 133, 155), rgb(153, 182, 207));
+    border: 1px solid rgb(176, 207, 235);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(58, 69, 78);
+    font-family:serif;
+}
+@media screen and (max-width: 600px){
+    body{
+        display: flex;
+        justify-content: center;
+        margin-top: 30%;
+        background-image: url(182061_adapted_1080x2400-Background-Wallpaper-720x1600-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        }
+        
+        
+        h1{
+        text-align: center;
+        font-size: 27px;
+        color:rgb(191, 218, 241);
+        text-shadow: 2px 2px rgb(80, 92, 102);
+        }
+        .box{
+        border-radius: 5% 0%;
+        position: relative;
+        margin-top: 100px;
+        width: 80%;
+        height: 8cm;
+        align-content: center;
+        border: 3px solid rgb(90, 161, 158);
+        backdrop-filter: blur(5px);
+        box-shadow: 3px 3px rgb(131, 155, 175);
+        background-color: transparent;
+        text-align: center;
+        }
+        
+        .ib{
+            height: 35px;
+            width: 90%;
+            outline: none;
+            border: 2px solid rgb(176, 207, 235);
+            color: rgb(255, 255, 255);
+            background: transparent;
+            box-shadow: 1px 1px rgb(68, 77, 85);
+            border-radius: 45px;
+        }
+        .button
+        {
+             text-align: center;
+        }
+        .button input{
+            margin-top: 20px;
+            width: 15ch;
+            height: 5ch;
+            font-size: 12px;
+            border-radius: 100px;
+            background-image: linear-gradient(to top,rgb(109, 133, 155), rgb(153, 182, 207));
+            border: 1px solid rgb(176, 207, 235);
+            color: rgb(255, 255, 255);
+            text-shadow: 1px 1px rgb(58, 69, 78);
+            font-family:serif;
+        }
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 979px) and (min-width: 768px){
+    body{
+        background-image: url(beautiful-landscape-ai-generated-1282023.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: center;
+        margin-top: 30%;
+    }
+    .button input{
+        margin-top: 50px;
+        width: 15ch;
+        height: 5ch;
+        font-size: 15px;
+        border-radius: 100px;
+        background-image: linear-gradient(to top,rgb(76, 81, 87), rgb(153, 182, 207));
+        border: 1px solid rgb(176, 207, 235);
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px rgb(58, 69, 78);
+        font-family:serif;
+    }
+
+.box{
+    border-radius: 5% 0%;
+    position: relative;
+    margin-top: 100px;
+    width: 80%;
+    height: 8cm;
+    align-content: center;
+    border: 3px solid rgb(90, 161, 158);
+    backdrop-filter: blur(5px);
+    box-shadow: 3px 3px rgb(131, 155, 175);
+    background-color: transparent;
+    text-align: center;
+    }
+    h1{
+        text-align: center;
+        color:rgb(174, 194, 211);
+        text-shadow: 2px 2px rgb(80, 92, 102);
+        }
+        .ib{
+            height: 35px;
+            width: 90%;
+            outline: none;
+            border: 2px solid rgb(176, 207, 235);
+            color: rgb(255, 255, 255);
+            background: transparent;
+            box-shadow: 1px 1px rgb(68, 77, 85);
+            border-radius: 45px;
+            font-size: 18px;
+        }
+
+}
+@media screen and (min-width: 992px){
+    body{
+        background-image: url(10962838.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .button input{
+        margin-top: 50px;
+        width: 15ch;
+        height: 5ch;
+        font-size: 15px;
+        border-radius: 100px;
+        background-image: linear-gradient(to top,rgb(3, 68, 3), rgb(141, 204, 40));
+        border: 1px solid rgb(55, 124, 28);
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px rgb(58, 69, 78);
+        font-family:serif;
+    }
+    h1{
+        text-align: center;
+        color:rgb(68, 219, 81);
+        text-shadow: 2px 2px rgb(52, 138, 73);
+        }
+        .ib{
+            height: 35px;
+            width: 90%;
+            outline: none;
+            border: 2px solid rgb(24, 190, 52);
+            color: rgb(255, 255, 255);
+            background: transparent;
+            box-shadow: 1px 1px rgb(32, 99, 26);
+            border-radius: 45px;
+            font-size: 18px;
+        }
+        .box{
+            border-radius: 5% 0%;
+            position: relative;
+            margin-top: -100px;
+            width: 80%;
+            height: 8cm;
+            align-content: center;
+            border: 3px solid rgb(23, 112, 45);
+            backdrop-filter: blur(5px);
+            box-shadow: 3px 3px rgb(5, 78, 15);
+            background-color: transparent;
+            text-align: center;
+            }
+
+}
