@@ -7,10 +7,10 @@ background-repeat: no-repeat;
 background-size: cover;
 
 }
-.pro{
+img{
     border-radius: 50%;
     padding: 1ch;
-    max-height: 5cap;    
+    max-height: 100px;    
 }
 h1{
 text-align: center;
