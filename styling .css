@@ -7,11 +7,7 @@ background-repeat: no-repeat;
 background-size: cover;
 
 }
-img{
-    border-radius: 50%;
-    padding: 1ch;
-    max-height: 100px;    
-}
+
 h1{
 text-align: center;
 color:rgb(191, 218, 241);
@@ -45,10 +41,13 @@ text-align: center;
     background: transparent;
     box-shadow: 1px 1px rgb(68, 77, 85);
     border-radius: 45px;
+    font-family: 'Abril Fatface', serif;
+    padding-left: 10px;
 }
 .button
 {
      text-align: center;
+     font-family: 'Abril Fatface', serif;
 }
 .button input{
     margin-top: 50px;
@@ -60,7 +59,7 @@ text-align: center;
     border: 1px solid rgb(176, 207, 235);
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px rgb(58, 69, 78);
-    font-family:serif;
+    font-family: 'Abril Fatface', serif;
 }
 @media screen and (max-width: 600px){
     body{
@@ -79,6 +78,7 @@ text-align: center;
         font-size: 27px;
         color:rgb(191, 218, 241);
         text-shadow: 2px 2px rgb(80, 92, 102);
+        font-family: 'Abril Fatface', serif;
         }
         .box{
         border-radius: 5% 0%;
@@ -92,6 +92,12 @@ text-align: center;
         box-shadow: 3px 3px rgb(131, 155, 175);
         background-color: transparent;
         text-align: center;
+        }
+        img{
+            border-radius: 50%;
+            padding: 1ch;
+            height: 100px;
+            
         }
         
         .ib{
@@ -138,7 +144,7 @@ text-align: center;
         margin-top: 30%;
     }
     .button input{
-        margin-top: 50px;
+        margin-top: 30px;
         width: 15ch;
         height: 5ch;
         font-size: 15px;
@@ -147,9 +153,15 @@ text-align: center;
         border: 1px solid rgb(176, 207, 235);
         color: rgb(255, 255, 255);
         text-shadow: 1px 1px rgb(58, 69, 78);
-        font-family:serif;
+        font-family: 'Abril Fatface', serif;
     }
-
+    img{
+        border-radius: 50%;
+        margin-top: -20px;
+        padding: 1ch;
+        height: 80px;
+        
+    }
 .box{
     border-radius: 5% 0%;
     position: relative;
@@ -167,6 +179,7 @@ text-align: center;
         text-align: center;
         color:rgb(174, 194, 211);
         text-shadow: 2px 2px rgb(80, 92, 102);
+        font-family: 'Abril Fatface', serif;
         }
         .ib{
             height: 35px;
@@ -178,6 +191,7 @@ text-align: center;
             box-shadow: 1px 1px rgb(68, 77, 85);
             border-radius: 45px;
             font-size: 18px;
+            font-family: 'Abril Fatface', serif;
         }
 
 }
@@ -188,7 +202,7 @@ text-align: center;
         background-size: cover;
     }
     .button input{
-        margin-top: 50px;
+        margin-top: 30px;
         width: 15ch;
         height: 5ch;
         font-size: 15px;
@@ -197,12 +211,20 @@ text-align: center;
         border: 1px solid rgb(55, 124, 28);
         color: rgb(255, 255, 255);
         text-shadow: 1px 1px rgb(58, 69, 78);
-        font-family:serif;
+        font-family: 'Abril Fatface', serif;
+    }
+    img{
+        border-radius: 50%;
+        margin-top: -20px;
+        padding: 1ch;
+        height: 80px;
+        
     }
     h1{
         text-align: center;
         color:rgb(68, 219, 81);
         text-shadow: 2px 2px rgb(52, 138, 73);
+        font-family: 'Abril Fatface', serif;
         }
         .ib{
             height: 35px;
@@ -214,6 +236,7 @@ text-align: center;
             box-shadow: 1px 1px rgb(32, 99, 26);
             border-radius: 45px;
             font-size: 18px;
+            font-family: 'Abril Fatface', serif;
         }
         .box{
             border-radius: 5% 0%;
