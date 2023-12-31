@@ -1,3 +1,36 @@
+@keyframes transition {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg) ;
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0deg) ;
+    }
+    
+}
+@keyframes transmessage {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg) ;
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0deg) ;
+    }
+    
+}
+.container{
+    animation: transition 0.7s;
+}
+.message{
+    animation: transmessage 3s ;
+}
+.content{
+    
+    animation: transmessage 3s ;
+    
+}
 @media screen and (max-width: 600px){
     body{
     background: url(910515.jpg);
@@ -10,8 +43,8 @@
     text-align: center;
 }  
     .box{
-        height: 200px;
-        width: 300px;
+        height: 300px;
+        width: 400px;
         background:antiquewhite;
         display: flex;
         align-items: center;
@@ -29,26 +62,35 @@
     }
     .content{
         
-        width:250px;
+        width:270px;
         background-image:linear-gradient(to top,rgb(42, 174, 207),rgb(17, 67, 87));
         height: 4vh;
-        margin-bottom: 200px;
+        margin-bottom: 310px;
         color: aliceblue;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-right: -250px;
+        margin-right: -313px;
         border-radius: 100px;
+        font-family: 'Bree Serif';
+        text-shadow: 1px 1px 5px black;
+        font-size: 16px;
     }
     .message{
-        width:250px;
-        height: 4vh;
-        margin-bottom: 100px;
+        width:350px;
+        height: 30vh;
         color: aliceblue;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-right: 0;
+        backdrop-filter: blur(50px);
+        margin-right: -40px;
+        font-size: 21px;
+        font-style:oblique ;
+        font-family: 'Abril Fatface', serif;
+        font-family: 'Fjalla One', sans-serif;
+        border-radius: 20px;
+        text-shadow: 1px 1px 5px black;
     }
     }
     
@@ -66,7 +108,7 @@
     text-align: center;
 }
 .box{
-    height: 300px;
+    height: 400px;
     width: 500px;
     background:antiquewhite;
     display: flex;
@@ -89,29 +131,39 @@
     border-radius: 100px;
     background-image:linear-gradient(to top,rgb(42, 174, 207),rgb(17, 67, 87));
     height: 4vh;
-    margin-bottom: 300px;
+    margin-bottom: 400px;
     color: aliceblue;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: -400px;
+    margin-right: -415px;
+    font-size: 21px;
+    font-family: 'Bree Serif';
+    text-shadow: 1px 1px 5px black;
 }
     .message{
         width:440px;
-        height: 4vh;
-        margin-bottom: 180px;
+        height: 28vh;
+        margin-bottom: 10px;
         color: aliceblue;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-right: -40;
-        font-size: 25;
+        margin-right: -25;
+        font-size: 26;
+        backdrop-filter: blur(70px);
+        font-style:oblique ;
+        font-family: 'Abril Fatface', serif;
+        font-family: 'Fjalla One', sans-serif;
+        border-radius: 20px;
+        text-shadow: 1px 1px 5px black;
+
     }
     }
 
 @media screen and (min-width: 992px){
     body{
-    background: url(https://e0.pxfuel.com/wallpapers/404/257/desktop-wallpaper-norway-sunset-over-forest.jpg);
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/020e1179-46f8-43ff-9c44-4280cde630ec/ddbwfth-987eddba-0635-4325-89e9-1c17e359e272.jpg/v1/fill/w_1137,h_703,q_70,strp/beautiful_mountain_sunrise_wallpaper_hd_4k_by_sahibdm_ddbwfth-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzkyIiwicGF0aCI6IlwvZlwvMDIwZTExNzktNDZmOC00M2ZmLTljNDQtNDI4MGNkZTYzMGVjXC9kZGJ3ZnRoLTk4N2VkZGJhLTA2MzUtNDMyNS04OWU5LTFjMTdlMzU5ZTI3Mi5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.dvMlWmqp_rs7ScMlwD90JBqNdSt8T4F2C_4vn9UfiaE);
     background-size: cover;
     background-repeat:no-repeat;
     display: flex;
@@ -120,8 +172,9 @@
     height: 100vh;
     text-align: center;
 }
+
 .box{
-    height: 400px;
+    height: 450px;
     width: 700px;
     background:antiquewhite;
     display: flex;
@@ -129,7 +182,7 @@
     justify-content: center;
     background: transparent;
     border-bottom: 5px solid;
-    border-bottom-color: rgb(172, 170, 167);
+    border-bottom-color: rgb(138, 172, 61);
     border-bottom-left-radius:20%;
     border-bottom-right-radius:20%;
     border-top: 8px solid;
@@ -143,10 +196,32 @@
     width:490px;
     background-image:linear-gradient(to top,rgb(216, 155, 23),rgb(87, 58, 31));
     height: 4vh;
-    margin-bottom: 410px;
+    margin-bottom: 455px;
     color: aliceblue;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50px;
+    margin-right: -560;
+    font-family: 'Bree Serif';
+    text-shadow: 1px 1px 5px black;
+    font-size: 23px;
+}
+.message{
+    width:640px;
+    height: 35vh;
+    margin-bottom: 10px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -80;
+    font-size: 30;
+    backdrop-filter: blur(70px);
+    font-style:oblique ;
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Fjalla One', sans-serif;
+    border-radius: 20px;
+    text-shadow: 1px 1px 5px black;
 }
 }
