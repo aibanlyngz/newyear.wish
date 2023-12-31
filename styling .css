@@ -1,3 +1,23 @@
+@keyframes transition {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg) ;
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0deg) ;
+    }
+    
+}
+.box{
+    animation: transition 2s;
+}
+
+
+
+
+
+
 body{
 display: flex;
 justify-content: center;
